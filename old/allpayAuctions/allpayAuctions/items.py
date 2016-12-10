@@ -13,7 +13,7 @@ class AuctionItem(Item):
    raw_bid_history = Field() # raw bidding history, set up in
 
    ## bidStuff = [('id0', bool), ('id1', bool), ... , ('id9', bool)]
-   ## in-order for (username, bool for autobid) true for auto, false for manual
+   ## in-order for (username, bool for autobid) true for auto, false for manualscrap
    
    ## for position, data in enumerate(bidStuff):
    ##    print position, data
